@@ -1,0 +1,261 @@
+algoritmo "semnome"
+var
+   s, rd, ed2, ed, dr, nd:inteiro
+   nr, n, rd1, ex:real
+   r:caractere
+inicio
+   escreval("1- Binário")
+   escreval("2- Decimal")
+   escreval("3- Octal")
+   escreva("Selecione a base para entrada dos dados: ")
+   leia(ed)
+   se ed=1 entao
+      escreval("1- Decimal")
+      escreval("2- Octal")
+      escreval("3- Hexadecimal")
+       escreva("Selecione qual base deseja para conversão: ")
+      leia(ed2)
+      se (ed2<=0)ou(ed2>=4) entao
+         escreval("Digite um valor válido")
+      senao
+         escreva("Digite um valor em Binário: ")
+         leia(nr)
+         n:=nr
+         repita
+         s:=n mod 10
+         n:=n/10
+         rd:=int(rd+s*(2^ex))
+         ex:=ex+1
+         ate(n=0)
+      se ed2=1 entao
+         escreval(nr," corresponde a",rd," em Decimal")
+      senao
+      se ed2=2 entao
+         repita
+         escolha (rd mod 8)
+         caso 1
+         r:=("1" + r)
+         caso 2
+         r:=("2" + r)
+         caso 3
+         r:=("3" + r)
+         caso 4
+         r:=("4" + r)
+         caso 5
+         r:=("5" + r)
+         caso 6
+         r:=("6" + r)
+         caso 7
+         r:=("7" + r)
+         fimescolha
+         rd:=(rd div 8)
+         ate rd=0
+         escreval(nr," corresponde a ",r," em Octal")
+      senao
+         repita
+            escolha (rd mod 16)
+               caso 0
+               r:=("0" + r)
+               caso 1
+               r:=("1" + r)
+               caso 2
+               r:=("2" + r)
+               caso 3
+               r:=("3" + r)
+               caso 4
+               r:=("4" + r)
+               caso 5
+               r:=("5" + r)
+               caso 6
+               r:=("6" + r)
+               caso 7
+               r:=("7" + r)
+               caso 8
+               r:=("0" + r)
+               caso 9
+               r:=("1" + r)
+               caso 10
+               r:=("A" + r)
+               caso 11
+               r:=("B" + r)
+               caso 12
+               r:=("C" + r)
+               caso 13
+               r:=("D" + r)
+               caso 14
+               r:=("E" + r)
+               caso 15
+               r:=("F" + r)
+            fimescolha
+           rd:=(rd div 16)
+         ate rd=0
+         escreval(nr," corresponde a ",r," em Hexadecimal")
+      fimse
+      fimse
+      fimse
+      senao
+      se ed=2 entao
+         escreval("1- Binário")
+         escreval("2- Octal")
+         escreval("3- Hexadecimal")
+         escreva("Selecione qual base deseja para conversão: ")
+         leia(ed2)
+         se (ed2<=0)ou(ed2>=4) entao
+            escreval("Digite um valor válido")
+         senao
+              escreva("Digite o número que deseja converter: ")
+              leia(dr)
+              nd:=dr
+         se ed2=1 entao
+            repita
+               escolha (nd mod 2)
+                  caso 0
+                  r:=("0" + r)
+                  caso 1
+                  r:=("1" + r)
+               fimescolha
+               nd:=(nd div 2)
+            ate nd=0
+            escreval(dr," corresponde a ",r," em Binário")
+         senao
+         se ed2=2 entao
+            repita
+               escolha (nd mod 8)
+                  caso 1
+                  r:=("1" + r)
+                  caso 2
+                  r:=("2" + r)
+                  caso 3
+                  r:=("3" + r)
+                  caso 4
+                  r:=("4" + r)
+                  caso 5
+                  r:=("5" + r)
+                  caso 6
+                  r:=("6" + r)
+                  caso 7
+                  r:=("7" + r)
+               fimescolha
+               nd:=(nd div 8)
+            ate nd=0
+            escreval(dr," corresponde a ",r," em Octal")
+         senao
+           repita
+            escolha (nd mod 16)
+               caso 0
+               r:=("0" + r)
+               caso 1
+               r:=("1" + r)
+               caso 2
+               r:=("2" + r)
+               caso 3
+               r:=("3" + r)
+               caso 4
+               r:=("4" + r)
+               caso 5
+               r:=("5" + r)
+               caso 6
+               r:=("6" + r)
+               caso 7
+               r:=("7" + r)
+               caso 8
+               r:=("0" + r)
+               caso 9
+               r:=("1" + r)
+               caso 10
+               r:=("A" + r)
+               caso 11
+               r:=("B" + r)
+               caso 12
+               r:=("C" + r)
+               caso 13
+               r:=("D" + r)
+               caso 14
+               r:=("E" + r)
+               caso 15
+               r:=("F" + r)
+            fimescolha
+           nd:=(nd div 16)
+         ate nd=0
+         escreval(dr," corresponde a ",r," em Hexadecimal")
+      fimse
+      fimse
+      fimse
+      fimse
+   se ed=3 entao
+      escreval("1- Decimal")
+      escreval("2- Binário")
+      escreval("3- Hexadecimal")
+       escreva("Selecione qual base deseja para conversão: ")
+      leia(ed2)
+      se (ed2<=0)ou(ed2>=4) entao
+         escreval("Digite um valor válido")
+      senao
+         escreva("Digite um valor em Octal: ")
+         leia(nr)
+         n:=nr
+         repita
+         s:=n mod 10
+         n:=n/10
+         rd:=int(rd+s*(8^ex))
+         ex:=ex+1
+         ate(n=0)
+      se ed2=1 entao
+         escreval(nr," corresponde a",rd," em Decimal")
+      senao
+      se ed2=2 entao
+       repita
+            escolha (rd mod 2)
+               caso 0
+               r:=("0" + r)
+               caso 1
+               r:=("1" + r)
+            fimescolha
+            rd:=(rd div 2)
+         ate rd=0
+         escreval(nr," corresponde a ",r," em Binário")
+      senao
+         repita
+            escolha (rd mod 16)
+               caso 0
+               r:=("0" + r)
+               caso 1
+               r:=("1" + r)
+               caso 2
+               r:=("2" + r)
+               caso 3
+               r:=("3" + r)
+               caso 4
+               r:=("4" + r)
+               caso 5
+               r:=("5" + r)
+               caso 6
+               r:=("6" + r)
+               caso 7
+               r:=("7" + r)
+               caso 8
+               r:=("0" + r)
+               caso 9
+               r:=("1" + r)
+               caso 10
+               r:=("A" + r)
+               caso 11
+               r:=("B" + r)
+               caso 12
+               r:=("C" + r)
+               caso 13
+               r:=("D" + r)
+               caso 14
+               r:=("E" + r)
+               caso 15
+               r:=("F" + r)
+            fimescolha
+           rd:=(rd div 16)
+         ate rd=0
+         escreval(nr," corresponde a ",r," em Hexadecimal")
+         fimse
+         fimse
+         fimse
+         fimse
+   fimse
+fimalgoritmo

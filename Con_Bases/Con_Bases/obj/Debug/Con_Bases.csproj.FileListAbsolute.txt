@@ -1,0 +1,20 @@
+C:\Users\Lenovo\Documents\Otávio\2020\2-Fundamentos da Informática\Con_Bases\Con_Bases\bin\Debug\Con_Bases.exe.config
+C:\Users\Lenovo\Documents\Otávio\2020\2-Fundamentos da Informática\Con_Bases\Con_Bases\bin\Debug\Con_Bases.exe
+C:\Users\Lenovo\Documents\Otávio\2020\2-Fundamentos da Informática\Con_Bases\Con_Bases\bin\Debug\Con_Bases.pdb
+C:\Users\Lenovo\Documents\Otávio\2020\2-Fundamentos da Informática\Con_Bases\Con_Bases\obj\Debug\Con_Bases.csprojAssemblyReference.cache
+C:\Users\Lenovo\Documents\Otávio\2020\2-Fundamentos da Informática\Con_Bases\Con_Bases\obj\Debug\Con_Bases.Conversor.resources
+C:\Users\Lenovo\Documents\Otávio\2020\2-Fundamentos da Informática\Con_Bases\Con_Bases\obj\Debug\Con_Bases.Properties.Resources.resources
+C:\Users\Lenovo\Documents\Otávio\2020\2-Fundamentos da Informática\Con_Bases\Con_Bases\obj\Debug\Con_Bases.csproj.GenerateResource.cache
+C:\Users\Lenovo\Documents\Otávio\2020\2-Fundamentos da Informática\Con_Bases\Con_Bases\obj\Debug\Con_Bases.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Documents\Otávio\2020\2-Fundamentos da Informática\Con_Bases\Con_Bases\obj\Debug\Con_Bases.exe
+C:\Users\Lenovo\Documents\Otávio\2020\2-Fundamentos da Informática\Con_Bases\Con_Bases\obj\Debug\Con_Bases.pdb
+C:\Users\otavi\OneDrive - Etec - Centro Paula Souza\Con_Bases\Con_Bases\bin\Debug\Con_Bases.exe.config
+C:\Users\otavi\OneDrive - Etec - Centro Paula Souza\Con_Bases\Con_Bases\bin\Debug\Con_Bases.exe
+C:\Users\otavi\OneDrive - Etec - Centro Paula Souza\Con_Bases\Con_Bases\bin\Debug\Con_Bases.pdb
+C:\Users\otavi\OneDrive - Etec - Centro Paula Souza\Con_Bases\Con_Bases\obj\Debug\Con_Bases.csprojAssemblyReference.cache
+C:\Users\otavi\OneDrive - Etec - Centro Paula Souza\Con_Bases\Con_Bases\obj\Debug\Con_Bases.Conversor.resources
+C:\Users\otavi\OneDrive - Etec - Centro Paula Souza\Con_Bases\Con_Bases\obj\Debug\Con_Bases.Properties.Resources.resources
+C:\Users\otavi\OneDrive - Etec - Centro Paula Souza\Con_Bases\Con_Bases\obj\Debug\Con_Bases.csproj.GenerateResource.cache
+C:\Users\otavi\OneDrive - Etec - Centro Paula Souza\Con_Bases\Con_Bases\obj\Debug\Con_Bases.csproj.CoreCompileInputs.cache
+C:\Users\otavi\OneDrive - Etec - Centro Paula Souza\Con_Bases\Con_Bases\obj\Debug\Con_Bases.exe
+C:\Users\otavi\OneDrive - Etec - Centro Paula Souza\Con_Bases\Con_Bases\obj\Debug\Con_Bases.pdb
